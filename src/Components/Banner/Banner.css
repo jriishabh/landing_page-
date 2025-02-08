@@ -1,0 +1,67 @@
+.banner {
+  height: 60px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  
+}
+
+.banner-logo {
+  margin-left: 15vh;
+  height: 55px; 
+  width: 55px;
+
+}
+
+.banner-right {
+  display: flex;
+  align-items: center;
+  padding-right: 5vh ;
+  gap: 50px;
+  
+}
+
+.whatsapp-icon {
+  width: 46px; 
+  height: 46px;
+  cursor: pointer;
+  border-radius: 20px;
+
+}
+
+.contact-button {
+  background-color: #001e40;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.contact-button:hover {
+  background-color: #003366;
+}
+
+
+@media (max-width: 768px) {
+.banner-logo{
+  margin-left: 5vh;
+}
+
+.whatsapp-icon{
+  width: 40px;
+  height: 40px;
+}
+
+.banner-right{
+  justify-content: end;
+  gap: 10px;
+}
+
+.contact-button{
+  padding: 10px 15px;
+}
+}

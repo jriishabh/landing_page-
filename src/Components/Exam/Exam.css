@@ -1,0 +1,95 @@
+
+/* General Styles */
+.exam-container {
+  width: 80vh;
+  max-width: 100%;  
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-family: 'Arial', sans-serif;
+  
+}
+
+.exam-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.exam-description {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Tab Buttons */
+.exam-tabs {
+  display: flex;
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.exam-tab {
+  flex: 1;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.exam-tab.active {
+  border-bottom: 3px solid #001e40;
+  color: #001e40 ;
+}
+
+/* Exam Details */
+.exam-section {
+  display: none;
+}
+
+.exam-section.active {
+  display: block;
+}
+
+.exam-subtitle {
+  font-size: 20px;
+  font-weight: bold;
+  color: #001e40;
+  margin-bottom: 10px;
+}
+
+.exam-list {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #333;
+}
+
+.exam-info {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .exam-container {
+      padding: 15px;
+      width: 100%;
+  }
+
+  .exam-tab {
+      font-size: 16px;
+      padding: 8px;
+  }
+
+  .exam-subtitle {
+      font-size: 18px;
+  }
+
+  
+}

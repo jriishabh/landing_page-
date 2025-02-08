@@ -1,0 +1,88 @@
+.success-stories {
+  width: 90%;
+  margin: 50px auto;
+  text-align: center;
+  
+}
+
+.title {
+  width: 100%;
+  font-size: 80px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: black;
+  line-height: 1.2;
+  border-bottom: 3px solid #001e40;
+}
+.desc{
+  text-align: center;
+  margin-bottom: 50px;
+  width: 50%;
+  margin-left: 25%;
+  font-size: large;
+}
+
+
+.carousel-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;  /* Enable horizontal scrolling */
+  gap: 15px;
+  padding: 10px;
+  width: 100%;
+  justify-content: flex-start;
+  -webkit-overflow-scrolling: touch; /* For smooth scrolling on iOS devices */
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;  /* Hide scrollbar */
+}
+
+.carousel-item {
+  flex-shrink: 0;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* Adding a subtle 3D effect using box-shadow */
+  
+}
+
+.carousel-item:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.15);  /* Stronger shadow on hover */
+}
+
+.carousel-item img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.large img {
+  width: 300px; /* Larger images for the top carousel */
+  height: 300px;
+}
+
+.small img {
+  width: 400px; /* Smaller images for the bottom carousel */
+  height: 400px;
+}
+
+
+
+@media screen and (max-width:768px){
+.desc{
+  text-align: left;
+}
+  .title{
+    font-size: 3.5rem;
+  }
+}
