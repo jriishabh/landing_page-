@@ -20,7 +20,7 @@
   margin-bottom: 50px;
   width: 50%;
   margin-left: 25%;
-  font-size: large;
+  font-size: 16px;
   
 }
 
@@ -87,7 +87,7 @@
     font-size: 30px;
   }
   .desc{
-   
+    font-size: 16px;
     width: 100%;
     margin: 0;
     

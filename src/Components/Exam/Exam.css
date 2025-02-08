@@ -1,18 +1,18 @@
 
 /* General Styles */
 .exam-container {
-  width: 90%; /* Default width for larger screens */
-  max-width: 600px; /* Optional: restricts container width on large screens */
-  margin: 0 auto; /* Centers the container */
+  width: 90%; 
+  max-width: 600px; 
+  margin: 0 auto; 
   padding: 20px;
   background: #ffffff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   font-family: 'Arial', sans-serif;
-  box-sizing: border-box; /* Includes padding in width calculation */
+  box-sizing: border-box; 
 }
 .exam-title {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
   margin-bottom: 15px;
 }
