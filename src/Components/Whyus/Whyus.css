@@ -81,6 +81,9 @@
     text-align: center;
     padding: 20px;
   }
+  .whyus-heading {
+    font-size: 30px;
+  }
 
   .whyus-text {
     max-width: 100%;

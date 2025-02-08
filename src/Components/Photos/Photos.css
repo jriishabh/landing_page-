@@ -16,11 +16,12 @@
   border-bottom: 3px solid #001e40;
 }
 .desc{
-  text-align: center;
+  text-align: left;
   margin-bottom: 50px;
   width: 50%;
   margin-left: 25%;
   font-size: large;
+  
 }
 
 
@@ -83,6 +84,17 @@
   text-align: left;
 }
   .title{
-    font-size: 3.5rem;
+    font-size: 30px;
+  }
+  .desc{
+   
+    width: 100%;
+    margin: 0;
+    
+  }
+  .carousel-item img {
+    width: 200px;
+    height: 200px;
+    
   }
 }

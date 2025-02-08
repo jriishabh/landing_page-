@@ -1,16 +1,16 @@
 
 /* General Styles */
 .exam-container {
-  width: 80vh;
-  max-width: 100%;  
+  width: 90%; /* Default width for larger screens */
+  max-width: 600px; /* Optional: restricts container width on large screens */
+  margin: 0 auto; /* Centers the container */
   padding: 20px;
   background: #ffffff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   font-family: 'Arial', sans-serif;
-  
+  box-sizing: border-box; /* Includes padding in width calculation */
 }
-
 .exam-title {
   font-size: 24px;
   font-weight: bold;
@@ -78,9 +78,10 @@
 /* Responsive Design */
 @media (max-width: 768px) {
   .exam-container {
-      padding: 15px;
-      width: 100%;
+    width: 80%; /* 80% of viewport width on mobile */
+    padding: 15px;
   }
+
 
   .exam-tab {
       font-size: 16px;

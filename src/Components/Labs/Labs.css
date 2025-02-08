@@ -4,25 +4,28 @@
 }
 
 .labs-heading {
-  font-size: 24px;
+  font-size: 50px;
   margin-bottom: 20px;
+  border-bottom: 3px solid #001e40;
 }
 
 .slider-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
-  max-width: 100%;
-  margin: auto;
   position: relative;
+  width: 100%;
+  
+  margin: auto;
+  overflow: hidden;
 }
 
 .image-row {
   display: flex;
+  justify-content: center;
   gap: 10px;
+  flex-wrap: nowrap;
   overflow: hidden;
-  transition: transform 0.5s ease-in-out; /* Smooth animation */
 }
 
 .slide-image {
@@ -30,28 +33,95 @@
   height: 450px;
   object-fit: cover;
   border-radius: 10px;
-  transition: transform 0.5s ease-in-out; /* Smooth image transition */
+  transition: transform 0.5s ease-in-out;
 }
 
+/* Arrows */
 .slider-arrow {
-  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
   color: white;
   border: none;
-  padding: 10px 15px;
+  font-size: 24px;
   cursor: pointer;
-  font-size: 18px;
-  border-radius: 5px;
-  transition: background 0.3s ease;
+  padding: 15px;
+  border-radius: 50%;
+  transition: 0.3s;
+  z-index: 2;
 }
 
 .slider-arrow:hover {
-  background-color: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.8);
 }
 
 .left {
-  margin-right: 10px;
+  left: 15px;
 }
 
 .right {
-  margin-left: 10px;
+  right: 15px;
+}
+
+/* Dots */
+.dots-container {
+  margin-top: 10px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  margin: 0 5px;
+  background-color: gray;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.dot.active {
+  background-color: black;
+  transform: scale(1.2);
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .labs-heading {
+    font-size: 30px;
+  }
+
+  .slider-container {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .image-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .slide-image {
+    width: 100%;
+    height: auto;
+   
+  }
+
+  /* Position arrows over the image */
+  .slider-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 12px;
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  .left {
+    left: 10px;
+  }
+
+  .right {
+    right: 10px;
+  }
 }
