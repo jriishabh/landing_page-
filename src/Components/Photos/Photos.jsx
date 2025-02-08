@@ -58,7 +58,7 @@ const Photos = () => {
 
   return (
     <div className="success-stories">
-      <h1 className="title">Success Stories Our Students</h1>
+      <h1 className="title">Success Stories Of Our Students</h1>
       <p className="desc">"You can take reference of our alumni network who have spoken along for their success stories by working in many reputed organizations at diverse levels worldwide. Then after that, you can seek registration in the Craw Security's CEH v13 AI Certified Ethical Hacker Training and Certification Course."</p>
       {/* Second Carousel - Bottom Images */}
       <div className="carousel-wrapper">

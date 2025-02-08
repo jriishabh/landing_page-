@@ -6,6 +6,9 @@ import Module from './Components/Module/Module'
 import Whyus from './Components/Whyus/Whyus'
 import Photos from './Components/Photos/Photos'
 import Labs from './Components/Labs/Labs'
+import FAQ from './Components/Faq/FAQ'
+import CEHCourse from './Components/CEHCourse/CEHCourse'
+import Banner2 from './Components/Banner2/Banner2'
 
 
 const App = () => {
@@ -13,11 +16,15 @@ const App = () => {
     <div>
       <Banner></Banner>
       <Hero></Hero>
+      
       <Summary></Summary>
+      <Banner2></Banner2>
       <Module></Module>
       <Whyus></Whyus>
       <Labs></Labs>
+      <CEHCourse></CEHCourse>
       <Photos></Photos>
+     <FAQ></FAQ>
     </div>
   )
 }

@@ -1,0 +1,52 @@
+.ceh-container {
+  text-align: center;
+  background: #001E40;
+  
+  padding: 40px 20px;
+  
+}
+
+.ceh-heading {
+  font-size: 28px;
+  font-weight: bold;
+  color:#FFD700;
+  margin-bottom: 15px;
+}
+
+.ceh-description {
+  font-size: 16px;
+  color: white;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.ceh-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.ceh-button {
+  background:#FFD700;
+  color: #001E40;
+  font-size: 16px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.ceh-button:hover {
+  background: #333;
+}
+
+.whatsapp-icon {
+  font-size: 28px;
+  color: #25d366;
+  cursor: pointer;
+}

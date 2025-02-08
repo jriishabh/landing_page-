@@ -19,7 +19,7 @@
   display: flex;
   align-items: center;
   padding-right: 5vh ;
-  gap: 50px;
+  gap: 10px;
   
 }
 
@@ -38,7 +38,7 @@
   padding: 10px 15px;
   font-size: 15px;
   cursor: pointer;
-  border-radius: 3px;
+  border-radius: 20px;
 }
 
 .contact-button:hover {
@@ -58,7 +58,7 @@
 
 .banner-right{
   justify-content: end;
-  gap: 10px;
+  gap: 20px;
 }
 
 .contact-button{

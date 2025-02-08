@@ -20,7 +20,12 @@ const Banner = () => {
             )
           }
         />
-        <button className="contact-button">Contact Us</button>
+        <button
+          className="contact-button"
+          onClick={() => window.location.href = "tel:+919205444320"}
+        >
+          Contact Us
+        </button>
       </div>
     </div>
   );

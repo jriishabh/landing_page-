@@ -1,7 +1,6 @@
 import React from "react";
 import "./Summary.css";
 
-
 const Summary = () => {
   return (
     <div className="summary-container">
@@ -12,49 +11,30 @@ const Summary = () => {
             Course
           </h2>
           <p>
-            The  <strong>CEH v13 </strong> program immerses you in <strong>real-world ethical hacking
-            through the dynamic CEH practice environment</strong>. With CEH Engage,
-            you’ll sharpen your skills and prove you have what it takes to
-            thrive as an ethical hacker.
+            The <strong>CEH v13</strong> program immerses you in{" "}
+            <strong>real-world ethical hacking through the dynamic CEH practice environment</strong>. 
+            With CEH Engage, you’ll sharpen your skills and prove you have what it takes to thrive as an ethical hacker.
           </p>
           <p>
-            New to <strong>CEH v13 </strong>,  learners will embark on their first emulated ethical
-            hacking engagement . <strong>This four-phase engagement requires students to
-            think critically and test the knowledge and skills </strong>gained by
-            capturing a series of flags in each phase. It demonstrates the live
-            application of skills and abilities in a consequence-free
-            environment through <strong>EC-Council’s new “Cyber Range”</strong>.
+            New to <strong>CEH v13</strong>, learners will embark on their first emulated ethical hacking engagement.{" "}
+            <strong>This four-phase engagement requires students to think critically and test their knowledge and skills</strong> 
+            by capturing a series of flags in each phase. It demonstrates the live application of skills and abilities in 
+            a consequence-free environment through <strong>EC-Council’s new “Cyber Range”</strong>.
           </p>
           <p>
-            As you complete your training and labs, CEH Engage empowers you to
-            put theory into practice through a mock hacking engagement. You’ll
-            navigate a real-world, four-part engagement, targeting an emulated
-            organization. Using a capture-the-flag format, you’ll progress by
-            answering critical “flag” questions, gaining hands-on experience in
-            a full-scale ethical hacking operation.
+            As you complete your training and labs, CEH Engage empowers you to put theory into practice through 
+            a mock hacking engagement. You’ll navigate a real-world, four-part engagement, targeting an emulated 
+            organization. Using a capture-the-flag format, you’ll progress by answering critical “flag” questions, 
+            gaining hands-on experience in a full-scale ethical hacking operation.
           </p>
         </div>
 
         <div className="summary-details">
-          <p>
-            ⏳ <strong>Course Duration:</strong> 40 Hours
-          </p>
-          <p>
-            🗣️ <strong>Language:</strong> Hindi | English
-          </p>
-          <p>
-            💻 <strong>Course Delivery:</strong> Online | Offline
-          </p>
-          <p>
-            📞 <strong>Contact us:</strong>{" "}
-            <a href="tel:9205625129">9205625129</a>
-          </p>
-          <p>
-            📧 <strong>Email Id:</strong>{" "}
-            <a href="mailto:training@cyberdefentech.com">
-              training@cyberdefentech.com
-            </a>
-          </p>
+          <p>⏳ <strong>Course Duration:</strong> 40 Hours</p>
+          <p>🗣️ <strong>Language:</strong> Hindi | English</p>
+          <p>💻 <strong>Course Delivery:</strong> Online | Offline</p>
+          <p>📞 <strong>Contact us:</strong> <a href="tel:9205625129">9205625129</a></p>
+          <p>📧 <strong>Email Id:</strong> <a href="mailto:training@cyberdefentech.com">training@cyberdefentech.com</a></p>
         </div>
       </div>
 
@@ -71,9 +51,10 @@ const Summary = () => {
           Book your Seat
         </button>
 
-        <a href="/broscher.pdf" download="broscher.pdf">
+        {/* Open PDF in New Tab Instead of Downloading */}
+        <a href="/broscher.pdf" target="_blank" rel="noopener noreferrer">
           <button className="test-paper">
-            Brochure <span className="free-badge">Download</span>
+            Brochure <span className="free-badge">View PDF</span>
           </button>
         </a>
       </div>
