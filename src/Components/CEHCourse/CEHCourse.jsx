@@ -19,7 +19,13 @@ const CEHCourse = () => {
       </p>
       <div className="ceh-btn-container">
         <button className="ceh-button">Connect with CEH Expert</button>
-        <img className="whatsapp-icon" src={whatsapp} alt="whatsapp_icon" /> 
+        <img className="whatsapp-icon"
+        onClick={() =>
+          window.open(
+            "https://api.whatsapp.com/send/?phone=918448046612&text=Hi!+I+have+a+query.",
+            "_blank"
+          )
+        } src={whatsapp} alt="whatsapp_icon" /> 
       </div>
     </div>
   );

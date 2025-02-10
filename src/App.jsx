@@ -9,24 +9,40 @@ import Labs from './Components/Labs/Labs'
 import FAQ from './Components/Faq/FAQ'
 import CEHCourse from './Components/CEHCourse/CEHCourse'
 import Banner2 from './Components/Banner2/Banner2'
+import Footer from './Components/Footer/Footer'
 
 
 const App = () => {
   return (
     <div>
-      <Banner></Banner>
-      <Hero></Hero>
-      
-      <Summary></Summary>
-      <Banner2></Banner2>
-      <Module></Module>
-      <Whyus></Whyus>
-      <Labs></Labs>
-      <CEHCourse></CEHCourse>
-      <Photos></Photos>
-     <FAQ></FAQ>
+      <Banner />
+      <Hero />
+      <div id="summary">
+        <Summary />
+      </div>
+      <Banner2 />
+      <div id="course">
+        <Module />
+      </div>
+      <div id="why-us">
+        <Whyus />
+      </div>
+      <div id="labs">
+        <Labs />
+      </div>
+      <div id="ceh-course">
+        <CEHCourse />
+      </div>
+      <div id="photos">
+        <Photos />
+      </div>
+      <Banner2 />
+      <div id="faqs">
+        <FAQ />
+      </div>
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

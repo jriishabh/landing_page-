@@ -29,11 +29,11 @@ const Module = () => {
   const [displayCount, setDisplayCount] = useState(5);
 
   const loadMore = () => {
-    setDisplayCount(prev => Math.min(prev + 5, modules.length));
+    setDisplayCount(prev => Math.min(prev + 15, modules.length));
   };
 
   const loadLess = () => {
-    setDisplayCount(prev => Math.max(prev - 5, 5));
+    setDisplayCount(prev => Math.max(prev - 15, 5));
   };
 
   return (
