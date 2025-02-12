@@ -18,7 +18,9 @@ const CEHCourse = () => {
         well-known firms worldwide will guide the student.
       </p>
       <div className="ceh-btn-container">
-        <button className="ceh-button">Connect with CEH Expert</button>
+        <button className="ceh-button"
+        onClick={() => window.location.href = "tel:+919205444320"}
+        >Connect with CEH Expert</button>
         <img className="whatsapp-icon"
         onClick={() =>
           window.open(

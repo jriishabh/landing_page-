@@ -29,8 +29,14 @@
   gap: 10px;
 }
 
+@keyframes blinkHighlight {
+  0% { background: #FFD700; box-shadow: 0 0 10px #FFD700; }
+  50% { background: #FFC000; box-shadow: 0 0 20px #FFC000; }
+  100% { background: #FFD700; box-shadow: 0 0 10px #FFD700; }
+}
+
 .ceh-button {
-  background:#FFD700;
+  background: #FFD700;
   color: #001E40;
   font-size: 16px;
   padding: 12px 20px;
@@ -39,11 +45,15 @@
   cursor: pointer;
   font-weight: bold;
   transition: 0.3s;
+  animation: blinkHighlight 1s infinite alternate; /* Animation added */
 }
 
 .ceh-button:hover {
   background: #333;
+  color: white;
+  box-shadow: 0 0 15px #FFD700;
 }
+
 
 .whatsapp-icon {
   font-size: 28px;

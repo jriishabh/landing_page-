@@ -33,7 +33,7 @@ const Summary = () => {
           <p>⏳ <strong>Course Duration:</strong> 40 Hours</p>
           <p>🗣️ <strong>Language:</strong> Hindi | English</p>
           <p>💻 <strong>Course Delivery:</strong> Online | Offline</p>
-          <p>📞 <strong>Contact us:</strong> <a href="tel:9205625129">9205625129</a></p>
+          <p>📞 <strong>Contact us:</strong> <a href="tel:9205444320">9205444320</a></p>
           <p>📧 <strong>Email Id:</strong> <a href="mailto:training@cyberdefentech.com">training@cyberdefentech.com</a></p>
         </div>
       </div>

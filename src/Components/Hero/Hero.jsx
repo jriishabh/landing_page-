@@ -2,6 +2,9 @@ import React, { useEffect, useState } from "react";
 import "./Hero.css";
 import whatsapp from "../../assets/whatsapp.jpg";
 import callicon from "../../assets/callicon.png";
+import CEHLOGO from "../../assets/Logo-CEH.png";
+import ECLOGO from "../../assets/EC.png"
+
 
 const sections = ["summary", "course", "why-us", "labs", "faqs"];
 
@@ -68,8 +71,13 @@ const Hero = () => {
     <div className="hero-container">
       <div className="hero-main">
         <div className="hero-content">
+          <div className="logo-bg">
+          <img className="hero-logo" src={ECLOGO} alt="" />
+         <img className="hero-logo1" src={CEHLOGO} alt="" />
+         
+         </div>
           <h1>
-            EC Counsil CEH v13 AI
+            EC Council CEH v13 AI
             <br /> Training and <br />
             Certification Course
           </h1>
@@ -78,7 +86,9 @@ const Hero = () => {
             <br /> now with the power of AI
           </p>
           <button className="hero-button">Enquire</button>
-          <button className="hero-button">Call Now : +91 9205625129</button>
+          <button className="hero-button"
+          onClick={() => window.location.href = "tel:+919205444320"}
+          >Call Now : +91 9205444320</button>
         </div>
 
         <div className="form-container" id="booking-form">
@@ -169,7 +179,7 @@ const Hero = () => {
             <span>Call Us</span>
             <br />
             <span>
-              <a href="tel:+918448046612">+91 8448046612</a>
+              <a href="tel:+919205444320">+91 9205444320</a>
             </span>
           </div>
         </div>

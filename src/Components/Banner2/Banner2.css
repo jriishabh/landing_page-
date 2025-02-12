@@ -26,6 +26,12 @@
   color: white;
 }
 
+@keyframes blinkHighlight {
+  0% { background: #FFD700; box-shadow: 0 0 10px #FFD700; }
+  50% { background: #FFC000; box-shadow: 0 0 20px #FFC000; }
+  100% { background: #FFD700; box-shadow: 0 0 10px #FFD700; }
+}
+
 .banner-button {
   background: #FFD700;
   color: #001E40;
@@ -36,10 +42,13 @@
   border-radius: 6px;
   cursor: pointer;
   transition: 0.3s;
+  animation: blinkHighlight 1s infinite alternate; /* Apply the animation */
 }
 
 .banner-button:hover {
+  color: white;
   background: #f0f0f0;
+  box-shadow: 0 0 15px #f0f0f0;
 }
 
 /* Responsive Design */

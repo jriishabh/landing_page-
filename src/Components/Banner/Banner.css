@@ -1,6 +1,6 @@
 .banner {
   height: 60px;
-  background-color: #20b189;
+  background-color:white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -10,8 +10,8 @@
 
 .banner-logo {
   margin-left: 15vh;
-  height: 55px; 
-  width: 55px;
+  height: 70px; 
+  width: 70px;
 
 }
 
